@@ -17,8 +17,7 @@ public class PrimeNo {
 				if (a[i] % j == 0) {
 					c[k] = a[i];
 					k++;
-				} 
-				else {
+				} else {
 					d[p] = a[i];
 					p++;
 				}
