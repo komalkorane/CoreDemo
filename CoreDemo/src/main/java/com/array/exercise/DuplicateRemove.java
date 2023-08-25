@@ -31,13 +31,13 @@ public class DuplicateRemove {
 		for (int z = 0; z < c.length; z++) {
 			c[z] = b[z];
 		}
-		System.out.println(Arrays.toString(c));
+//		System.out.println(Arrays.toString(c));
 
-//	List<Integer> list =	Arrays.asList(a);
-//	List<Integer> l= list.stream().filter(e -> Collections.frequency(list, e)==1)
-//	.collect(Collectors.toList());
-//		System.out.println(l);
-//	
+	List<Integer> list =	Arrays.asList(a);
+	List<Integer> l= list.stream().filter(e -> Collections.frequency(list, e)==1)
+	.collect(Collectors.toList());
+		System.out.println(l);
+	
 //	Set<Integer> set =	list.stream().collect(Collectors.toSet());
 //		System.out.println(set);
 

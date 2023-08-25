@@ -22,7 +22,9 @@ public class HighestReccurringNumber {
 		Optional<Integer> maxReccurringNumber = list.stream()
 				.max(Comparator.comparingInt(num -> Collections.frequency(list, num)));
 		System.out.println(maxReccurringNumber);
-
+		
+		Long c =  list.stream().distinct().count();
+		System.out.println(c);
 	}
 
 }

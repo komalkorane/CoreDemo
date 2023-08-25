@@ -1,6 +1,6 @@
 package com.array.exercise;
 
-public class AlphabetCount {
+public class SequentialAlphabetCount {
 
 	public static void main(String[] args) {
 
@@ -10,7 +10,7 @@ public class AlphabetCount {
 		for (int i = 1; i < s.length(); i++) {
 
 			if (s.charAt(i) == s.charAt(i - 1))
-				c++;
+				c++;	
 		}
 		System.out.println(c);
 	}

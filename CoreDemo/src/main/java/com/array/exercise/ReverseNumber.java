@@ -18,5 +18,14 @@ public class ReverseNumber {
 		}
 		System.out.println(reverse);
 
+		m1();
+	}
+
+	private static void m1() {
+
+		Integer num1 = 1234;
+
+		num1.toString().chars().mapToObj(i -> (char) i).sorted((a, b) -> b - a).forEach(System.out::print);
+
 	}
 }
